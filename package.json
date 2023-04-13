@@ -1,0 +1,31 @@
+{
+  "name": "gc-webserver",
+  "version": "0.0.1",
+  "description": "Package contains a very simple web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-gigimerry.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "gigimerry",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-gigimerry/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-gigimerry#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
