@@ -18,6 +18,13 @@ var file;
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
 
+fs.readFile('./public/index.html', 'utf8', (consoleError, fileData) => {
+    if (consoleError) {
+      console.error(consoleError);
+      return;
+    }
+    file = fileData;
+  });
 
 
 
@@ -28,7 +35,7 @@ var file;
 // 1. status code 200, 
 // 2. set a header with content type `text/html`, and 
 // 3. end with the data that you are reading in from ./public/index.html.
-
+const server = http.createServer((req, res) => {}
 
 
 
